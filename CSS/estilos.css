@@ -86,3 +86,11 @@ footer {
     border-top: solid gray 1px;
     background-color: #F2E3EF;
 }
+
+@media screen and (max-width: 500px){
+    header nav li {
+        display: block;
+        padding-right: 20px;
+    }
+    
+}
