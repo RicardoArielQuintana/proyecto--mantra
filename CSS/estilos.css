@@ -19,7 +19,6 @@ header nav li {
 
 header nav li a:hover {
     border-bottom: 4px solid coral;
-    border-radius: 20px;
 }
 
 header nav li a {
