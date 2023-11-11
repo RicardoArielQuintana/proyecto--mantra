@@ -61,9 +61,17 @@ main {
 .imgProductos {
     width: 200px;
     height: auto;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px;
 }
 
+.prod{
+    display: grid;
+    grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+    );
+    gap: 20px;
+}
 .contenedorProductos {
     border: 3px solid #7c96f4ff;
     border-radius: 20px;
